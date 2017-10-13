@@ -1,0 +1,25 @@
+{
+  "name": "galactic-calculator",
+  "description": "#### _Epicodus Solo Project JavaScript Week 1, 10/13/17_",
+  "main": "index.html",
+  "authors": [
+    "L. Devin MacKrell"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.19.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
