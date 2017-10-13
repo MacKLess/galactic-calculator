@@ -10,15 +10,12 @@ _An app that determines the user's age in seconds, in years on the following cou
 
 ## Setup/Installation Requirements
 
-* Clone this repository at [github.com/MackLess/haiku-review](https://github.com/MacKLess/haiku-review.git)
+* Clone this repository at [github.com/MackLess/galactic-calculator](https://github.com/MacKLess/galactic-calculator.git)
 * Open index.html in your preferred browser by typing "open index.html" in your terminal.
 
 ## Specifications
 
-* _User entered birthday is converted into seconds._
-* Example Input: October 13, 2017
-* Example Output: 31,536,000 seconds
-* _Birthdates are compared to secondary date (current date) and the difference is returned in seconds._
+* _User enters birthday and their age is converted into seconds._
 * Example Input: October 13, 2014, October 13, 2017
 * Example Output: 94,608,000 seconds
 * _User age is returned in Mercury years (A Mercury year is .24 Earth years; 4.17 years for every Earth year)._
