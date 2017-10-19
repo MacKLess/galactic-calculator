@@ -7,7 +7,7 @@ export class Planet {
   }
 
   secondsLeft() {
-    const secLeft = this.currentAge - this.finalAge;
+    const secLeft = this.finalAge - this.currentAge;
     return secLeft;
   }
 

@@ -11,6 +11,8 @@ _An app that determines the user's age in seconds, in years on the following pla
 ## Setup/Installation Requirements
 
 * Clone this repository at [github.com/MackLess/galactic-calculator](https://github.com/MacKLess/galactic-calculator.git)
+* Install npm and bower.
+* Run npm install.
 * Open index.html in your preferred browser by typing "open index.html" in your terminal.
 
 ## Specifications
@@ -31,10 +33,11 @@ _An app that determines the user's age in seconds, in years on the following pla
 * Example Input: October 13, 2014 (3 years)
 * Example Output: 0.25 Jupiter years
 * _Return the number of years the user has on each planet based on inputted life expectancy._
-
+* Example Input: 82 years, born July 11, 1978
+* Example Output: Earth, 42.70; Mercury, 178.05; Venus, 68.75; Mars, 22.63; and Jupiter, 3.59
 * _If user has exceeded life expectancy, return that information._
-
-
+* Example Input: 40 years, born July 11, 1978
+* Example Output: Earth, You've outlived your expectancy by 2 years. Keep drinking those health shakes!
 
 ## Bugs
 
