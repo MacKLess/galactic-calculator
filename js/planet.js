@@ -1,25 +1,59 @@
+import { Calculator } from './../js/calculator.js';
+
 export class Planet {
-  constructor(timeDifference) {
-    this.timeDifference = timeDifference;
+  constructor(currentAge, finalAge) {
+    this.currentAge = currentAge;
+    this.finalAge = finalAge;
   }
 
-  convertDate() {
-    //Function goes here. Need to take timeDifference and multiply it by planetTime.
+  secondsLeft() {
+    const secLeft = this.currentAge - this.finalAge;
+    return secLeft;
   }
-}
 
-class Mercury extends Planet {
 
-}
+  lifeOnEarth() {
+    let earthLeft = (this.secondsLeft() / 31536000).toFixed(2);
+    return earthLeft;
+  }
 
-class Venus extends Planet {
+  convertMercury() {
+    let mercYears = ((this.currentAge * 4.17) / 31536000).toFixed(2);
+    return mercYears;
+  }
 
-}
+  lifeOnMercury() {
+    let mercLeft = ((this.secondsLeft() * 4.17) / 31536000).toFixed(2);
+    return mercLeft;
+  }
 
-class Mars extends Planet {
+  convertVenus() {
+    let venusYears = ((this.currentAge * 1.61) / 31536000).toFixed(2);
+    return venusYears;
+  }
 
-}
+  lifeOnVenus() {
+    let venusLeft = ((this.secondsLeft() * 1.61) / 31536000).toFixed(2);
+    return venusLeft;
+  }
 
-class Jupiter extends Planet {
+  convertMars() {
+    let marsYears = ((this.currentAge * 0.53) / 31536000).toFixed(2);
+    return marsYears;
+  }
 
+  lifeOnMars() {
+    let marsLeft = ((this.secondsLeft() * 0.53) / 31536000).toFixed(2);
+    return marsLeft;
+  }
+
+  convertJupiter() {
+    let jupYears = ((this.currentAge * 0.084) / 31536000).toFixed(2);
+    return jupYears;
+  }
+
+  lifeOnJupiter() {
+    let jupLeft = ((this.secondsLeft() * 0.084) / 31536000).toFixed(2);
+    return jupLeft;
+  }
 }

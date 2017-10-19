@@ -10,16 +10,33 @@
   <body>
     <div class="container">
       <h1>Galactic Age Calculator</h1>
-      <p>How many seconds have you been alive? Enter in your birthdate to find out!</p>
-      <div id="dob" class="form-group">
-        <label for="born">Date of birth:</label>
-        <input id="born" type="date" class="form-control">
-        <button class="btn-success" type="submit">Submit</button>
-      </div>
-      <div id="output"></div>
-      <p>Look at the time!</p>
-      <p id="time"></p>
-
+      <p>How many seconds have you been alive? How old would you be on another planet like Mercury? Venus? Mars? Or Jupiter? Enter in your birthdate to find out!</p>
+      <form class="dob" >
+        <div class="form-group">
+          <label for="born">Date of birth:</label>
+          <input id="born" type="date" class="form-control">
+          <button class="btn-success" type="submit">Submit</button>
+        </div>
+        <div id="output"></div>
+        <div id="mercuryAge"></div>
+        <div id="venusAge"></div>
+        <div id="marsAge"></div>
+        <div id="jupiterAge"></div>
+      </form>
+      <h2>Life on Mars....or Jupiter...</h2>
+      <p>How long do you think you'll live? How long is that in seconds? How many years would you have left on a different planet. Click the button and see!</p>
+      <form class="dod">
+        <div class="form-group">
+          <label for="deathDate">Life Expectancy:</label>
+          <input id="death" type="number" class="form-control">
+          <button class="btn-success" type="click">Click if you dare!</button>
+        </div>
+        <div id="earthLeft"></div>
+        <div id="mercuryLeft"></div>
+        <div id="venusLeft"></div>
+        <div id="marsLeft"></div>
+        <div id="jupiterLeft"></div>
+      </form>
     </div>
   </body>
 </html>

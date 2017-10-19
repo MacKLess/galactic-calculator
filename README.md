@@ -6,7 +6,7 @@
 
 ## Description
 
-_An app that determines the user's age in seconds, in years on the following countries: Mercury, Venus, Jupiter, Mars. In addition, based on inputted life expectancy, the user will be informed how many years they will have left on each country._
+_An app that determines the user's age in seconds, in years on the following planets: Mercury, Venus, Jupiter, Mars. In addition, based on inputted life expectancy, the user will be informed how many years they will have left on each planet._
 
 ## Setup/Installation Requirements
 

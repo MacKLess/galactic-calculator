@@ -1,16 +1,14 @@
 export class Calculator {
-  constructor(birthDate) {
-    this.birthDate = birthDate;
+  constructor() {
   }
 
   ageCalculator(born) {
-    let calculator = new Calculator(this.birthDate);
     let currentDate = Date.now();
-
-    let dob = $('#born').val();
-    let elapsed = dob - currentDate;
+    console.log(Date.now());
+    let elapsed = Math.floor((currentDate - born.getTime()) / 1000);
     return elapsed;
   }
+
 }
 //   currentAge() {
 //     let calculator = new Calculator(this.birthDate);
