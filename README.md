@@ -39,6 +39,13 @@ _An app that determines the user's age in seconds, in years on the following pla
 * Example Input: 40 years, born July 11, 1978
 * Example Output: Earth, You've outlived your expectancy by 2 years. Keep drinking those health shakes!
 
+## Further Exploration
+
+* _Additional functionality that I'd like to include with more time:_
+* Age calculators for all 7 planets (including Pluto).
+* Health factors that can impact longevity like smoking, inactivity, persistent health conditions.
+* Effects of pressure and other factors that impact longevity known to be present as differing planetary conditions.
+
 ## Bugs
 
 _There are no known bugs._
