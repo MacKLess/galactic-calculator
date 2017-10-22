@@ -25,8 +25,8 @@ $(document).ready(function() {
     let modelPlanet = new Planet(currentAge);
     const finalAge = (parseInt($('#death').val())) * 31536000;
     let deathPlanet = new Planet(currentAge, finalAge);
-    //output for current age on different planets
     $('#output').text(`You are ${currentAge} seconds old!`);
+    //output for current age on different planets
     $('#mercuryAge').text(`You are ${modelPlanet.convertMercury()} years old on Mercury!`);
     $('#venusAge').text(`You are ${modelPlanet.convertVenus()} years old on Venus!`);
     $('#marsAge').text(`You are ${modelPlanet.convertMars()} years old on Mars!`);

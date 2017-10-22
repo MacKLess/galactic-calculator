@@ -19,7 +19,7 @@ _An app that determines the user's age in seconds, in years on the following pla
 
 * _User enters birthday and their age is converted into seconds._
 * Example Input: October 13, 2014, October 13, 2017
-* Example Output: 94,608,000 seconds
+* Example Output: 94,694,400 seconds (includes a leap year)
 * _User age is returned in Mercury years (A Mercury year is .24 Earth years; 4.17 years for every Earth year)._
 * Example Input: October 13, 2014 (3 years)
 * Example Output: 12.5 Mercury years
@@ -44,7 +44,7 @@ _An app that determines the user's age in seconds, in years on the following pla
 * _Additional functionality that I'd like to include with more time:_
 * Age calculators for all 7 planets (including Pluto).
 * Health factors that can impact longevity like smoking, inactivity, persistent health conditions.
-* Effects of pressure and other factors that impact longevity known to be present as differing planetary conditions.
+* Effects of pressure and other factors that impact longevity known to be present as differing planetary conditions (temperature, atmospheric conditions, etc.).
 
 ## Bugs
 

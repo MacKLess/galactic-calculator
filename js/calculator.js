@@ -1,10 +1,10 @@
 export class Calculator {
-  constructor() {
+  constructor(currentDate) {
+  this.currentDate = currentDate || Date.now();
   }
 
   ageCalculator(born) {
-    let currentDate = Date.now();
-    let elapsed = Math.floor((currentDate - born.getTime()) / 1000);
+    let elapsed = Math.floor((this.currentDate - born.getTime()) / 1000);
     return elapsed;
   }
 }
