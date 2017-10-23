@@ -20,6 +20,9 @@ _An app that determines the user's age in seconds, in years on the following pla
 * _User enters birthday and their age is converted into seconds._
 * Example Input: October 13, 2014, October 13, 2017
 * Example Output: 94,694,400 seconds (includes a leap year)
+* _User enters birthday and expected age at death for remaining years in lifespan._
+* Example Input: October 13, 2014, October 13, 2017, 82
+* Example Output: 79.00 years
 * _User age is returned in Mercury years (A Mercury year is .24 Earth years; 4.17 years for every Earth year)._
 * Example Input: October 13, 2014 (3 years)
 * Example Output: 12.5 Mercury years
