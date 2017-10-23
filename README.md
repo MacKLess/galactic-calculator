@@ -25,7 +25,7 @@ _An app that determines the user's age in seconds, in years on the following pla
 * Example Output: 79.00 years
 * _User age is returned in Mercury years (A Mercury year is .24 Earth years; 4.17 years for every Earth year)._
 * Example Input: October 13, 2014 (3 years)
-* Example Output: 12.5 Mercury years
+* Example Output: 12.52 Mercury years
 * _User age is returned in Venus years (A Venus year is .62 Earth years; 1.61 years for every Earth year)._
 * Example Input: October 13, 2014 (3 years)
 * Example Output: 4.83 Venus years
