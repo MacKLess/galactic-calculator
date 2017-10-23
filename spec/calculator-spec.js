@@ -54,5 +54,23 @@ describe('Planet', function() {
     });
   });
 
+  describe('convertVenus', function() {
+    it('should return the age of the user in years on Venus', function() {
+      expect(planet.convertVenus()).toEqual(4.83.toFixed(2));
+    });
+  });
+
+  describe('convertMars', function() {
+    it('should return the age of the user in years on Mars', function() {
+      expect(planet.convertMars()).toEqual(1.59.toFixed(2));
+    });
+  });
+
+  describe('convertJupiter', function() {
+    it('should return the age of the user in years on Jupiter', function() {
+      expect(planet.convertJupiter()).toEqual(0.25.toFixed(2));
+    });
+  });
+
 
 });
