@@ -54,9 +54,21 @@ describe('Planet', function() {
     });
   });
 
+  describe('lifeOnMercury', function() {
+    it('should return the seconds left for the user life based on birthdate input and age expectancy input on the planet Mercury', function() {
+      expect(planet.lifeOnMercury()).toEqual(329.42.toFixed(2));
+    });
+  });
+
   describe('convertVenus', function() {
     it('should return the age of the user in years on Venus', function() {
       expect(planet.convertVenus()).toEqual(4.83.toFixed(2));
+    });
+  });
+
+  describe('lifeOnVenus', function() {
+    it('should return the seconds left for the user life based on birthdate input and age expectancy input on the planet Venus', function() {
+      expect(planet.lifeOnVenus()).toEqual(127.19.toFixed(2));
     });
   });
 
@@ -66,11 +78,22 @@ describe('Planet', function() {
     });
   });
 
+  describe('lifeOnMars', function() {
+    it('should return the seconds left for the user life based on birthdate input and age expectancy input on the planet Mars', function() {
+      expect(planet.lifeOnMars()).toEqual(41.87.toFixed(2));
+    });
+  });
+
   describe('convertJupiter', function() {
     it('should return the age of the user in years on Jupiter', function() {
       expect(planet.convertJupiter()).toEqual(0.25.toFixed(2));
     });
   });
 
+  describe('lifeOnJupiter', function() {
+    it('should return the seconds left for the user life based on birthdate input and age expectancy input on the planet Jupiter', function() {
+      expect(planet.lifeOnJupiter()).toEqual(6.64.toFixed(2));
+    });
+  });
 
 });

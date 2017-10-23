@@ -31,7 +31,7 @@ _An app that determines the user's age in seconds, in years on the following pla
 * Example Output: 4.83 Venus years
 * _User age is returned in Mars years (A Mars year is 1.88 Earth years; 0.53 years for every Earth year)._
 * Example Input: October 13, 2014 (3 years)
-* Example Output: 1.60 Mars years
+* Example Output: 1.59 Mars years
 * _User age is returned in Jupiter years (A Jupiter year is 11.86 years; 0.084 years for every Earth year)._
 * Example Input: October 13, 2014 (3 years)
 * Example Output: 0.25 Jupiter years
